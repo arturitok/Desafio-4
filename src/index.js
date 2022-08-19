@@ -2,7 +2,6 @@ const express = require('express');
 const mainRouter = require('./routes/index');
 const path = require('path')
 
-
 const app = express();
 const port = 8080;
 const server = app.listen(port, () =>
